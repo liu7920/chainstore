@@ -8,6 +8,15 @@ using namespace std;
 class Headquarters : public article{
 public:
 	Headquarters();
+	int output(){
+		return re();
+	}
+	void input(int in){
+		inp(in);
+	}
+	void ss(int in){
+		sub(in);
+	}
 	virtual ~Headquarters();
 
 };

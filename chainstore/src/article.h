@@ -9,11 +9,14 @@ public:
 	article(){
 		this->Quantity=0;
 	}
-	void input(int in){
+	void inp(int in){
 		this->Quantity+=in;
 	}
 	int re(){
 		return this->Quantity;
+	}
+	void sub(int in){
+		this->Quantity-=in;
 	}
 	virtual ~article();
 };
